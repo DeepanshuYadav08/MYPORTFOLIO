@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+🚀 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website built using React.
+It showcases my skills, projects, and provides a way to connect with me.
 
-## Available Scripts
+🔗 Live Website:
+👉 https://myportfolio-weld-ten-94.vercel.app
+🛠️ Built With
+⚛️ React – Frontend library
+🎨 CSS ,Custom Styling (adjust if needed)
+📦 JavaScript
+🌐 Vercel – Deployment platform
 
-In the project directory, you can run:
+✨ Features
+📱 Fully responsive design (mobile & desktop)
+🎯 Clean and modern UI
 
-### `npm start`
+🧑‍💻 Sections for:
+About Me
+Skills
+Projects
+Contact
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚡ Fast performance and smooth navigation
+📂 Project Structure:--
+myportfolio/
+├── node_modules/          # Installed dependencies
+├── public/                # Static public assets
+│
+├── src/                    # Main source code
+│   ├── components/         # Reusable UI components
+│   │   ├── About/          # About section component
+│   │   ├── Cards/          # Reusable card components
+│   │   ├── Contact/        # Contact section
+│   │   ├── Education/      # Education section
+│   │   ├── Experience/     # Experience section
+│   │   ├── Footer/         # Footer component
+│   │   ├── HeroBgAnimation/# Hero background animations
+│   │   ├── HeroSection/    # Landing / hero section
+│   │   ├── Navbar/         # Navigation bar
+│   │   ├── ProjectDetails/ # Single project details
+│   │   ├── Projects/       # Projects listing section
+│   │   └── Skills/         # Skills section
+│   │
+│   ├── data/               # Static data (projects, skills, content)
+│   ├── images/             # Image assets
+│   │   └── HeroImage.jpg
+│   │
+│   ├── themes/              # Theme-related files
+│   ├── utils/               # Utility/helper functions
+│   │   └── Themes.js
+│   │
+│   ├── App.css              # Global styles
+│   ├── App.js               # Root React component
+│   └── index.js             # Entry point of the app
+│
+├── .gitignore               # Git ignored files
+├── package.json             # Project metadata & scripts
+├── package-lock.json        # Dependency lock file
+└── README.md                # Project documentation
+FLOW OF PROJECT:-
+index.js → App.js → components → UI sections
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+index.js mounts the app
+App.js controls layout & main sections
+components/ holds all UI parts
+data/ keeps content separate from logic
+themes/ & utils/ improve maintainability
 
-### `npm test`
+HOW TO GET STARTED _? -
+🚀 Getting Started (Run Locally)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to run the project on your local machine:
 
-### `npm run build`
+1️⃣ Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2️⃣ Go to project folder
+cd your-repo-name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3️⃣ Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4️⃣ Start the development server
+npm start
 
-### `npm run eject`
+The app will run at:
+http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🌍 Deployment
+This project is deployed using Vercel.
+Every time I push changes to GitHub, the website automatically redeploys.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📌 Future Improvements
+Add animations and transitions
+Improve SEO
+Add more real-world projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🙋‍♂️ About Me
+Name- Deepanshu Yadav
+I am a Computer Science student and an aspiring Frontend / Web Developer,
+currently learning and building projects using HTML, CSS, JavaScript, and React.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📧 Email: deepanshu.dy006@gmail.com
 
-## Learn More
+💼 GitHub: https://github.com/DeepanshuYadav08
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🌐 Portfolio: https://myportfolio-weld-ten-94.vercel.app
