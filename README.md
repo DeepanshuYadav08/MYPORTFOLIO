@@ -22,43 +22,79 @@ Projects
 Contact
 
 ⚡ Fast performance and smooth navigation
+
 📂 Project Structure:--
-myportfolio/
+ 
+ myportfolio/
+
 ├── node_modules/          # Installed dependencies
+
 ├── public/                # Static public assets
-│
+
 ├── src/                    # Main source code
+
 │   ├── components/         # Reusable UI components
+
 │   │   ├── About/          # About section component
+
 │   │   ├── Cards/          # Reusable card components
+
 │   │   ├── Contact/        # Contact section
+
 │   │   ├── Education/      # Education section
+
 │   │   ├── Experience/     # Experience section
+
 │   │   ├── Footer/         # Footer component
+
 │   │   ├── HeroBgAnimation/# Hero background animations
+
 │   │   ├── HeroSection/    # Landing / hero section
+
 │   │   ├── Navbar/         # Navigation bar
+
 │   │   ├── ProjectDetails/ # Single project details
+
 │   │   ├── Projects/       # Projects listing section
+
 │   │   └── Skills/         # Skills section
+
 │   │
+
 │   ├── data/               # Static data (projects, skills, content)
+
 │   ├── images/             # Image assets
+
 │   │   └── HeroImage.jpg
+
 │   │
+
 │   ├── themes/              # Theme-related files
+
 │   ├── utils/               # Utility/helper functions
+
 │   │   └── Themes.js
+
 │   │
+
 │   ├── App.css              # Global styles
+
 │   ├── App.js               # Root React component
+
 │   └── index.js             # Entry point of the app
+
 │
+
 ├── .gitignore               # Git ignored files
+
 ├── package.json             # Project metadata & scripts
+
 ├── package-lock.json        # Dependency lock file
+
 └── README.md                # Project documentation
+
 FLOW OF PROJECT:-
+
 index.js → App.js → components → UI sections
 
 index.js mounts the app
