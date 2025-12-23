@@ -149,7 +149,11 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://files.catbox.moe/crreuy.png",
+    img: "<img
+  src="https://raw.githubusercontent.com/DeepanshuYadav08/MYPORTFOLIO/main/public/School_logo.png"
+  alt="School Logo"
+/>
+",
     school: "Raath international School,Behror,Alwar, Rajasthan",
     date: "May 2021 - Apr 2023",
     grade: "81.2%",
